@@ -56,7 +56,7 @@ public class WalissonMatheus {
     }
 
     private void metodo3() {
-
+        System.out.println("Nomes em ordem alfabética");
         Scanner sc1 = new Scanner(System.in);
         String nomes[] = new String[10];
 
