@@ -40,13 +40,21 @@ public class WalissonMatheus {
         Scanner sc = new Scanner(System.in);
         System.out.print("Insira o valor: ");
         int valor = sc.nextInt();
-        System.out.println(valor / 10 + " notas de 10");
+        System.out.println(valor / 200 + " notas de 200 Reais");
+        valor = valor % 200;
+        System.out.println(valor / 100 + " notas de 100 Reais");
+        valor = valor % 100;
+        System.out.println(valor / 50 + " notas de 50 Reais");
+        valor = valor % 50;
+        System.out.println(valor / 20 + " notas de 20 Reais");
+        valor = valor % 20;
+        System.out.println(valor / 10 + " notas de 10 Reais");
         valor = valor % 10;
-        System.out.println(valor / 5 + " notas de 5");
+        System.out.println(valor / 5 + " notas de 5 Reais");
         valor = valor % 5;
-        System.out.println(valor / 2 + " notas de 2");
+        System.out.println(valor / 2 + " notas de 2 Reais");
         valor = valor % 2;
-        System.out.println(valor / 1 + " notas de 1");
+        System.out.println(valor / 1 + " notas de 1 Real");
         valor = valor % 1;
 
         System.out.println("Método 2 encerrado!\n");
